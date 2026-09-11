@@ -11,3 +11,18 @@ public class Usuario {
 
     public Usuario () {
     }
+
+    public Usuario (Long id, String nome, String username, String senha, String Perfil) {
+    this.id = id;
+    this.name = username;
+    this.senha = senha;
+    this.perfil = perfil;
+    }
+
+    public long getId() {
+        return id;
+    }
+    public void  setId(long id){
+
+    } 
+    
